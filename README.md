@@ -5,9 +5,7 @@ Se creó una función llamada `integracion` que aplica la fórmula de Simpson 1/
 Esta función recibe otra función como parámetro (enfoque de programación funcional) y los límites de integración.  
 La fórmula utilizada fue:
 
-\[
-\frac{b-a}{6} \left[f(a) + 4f\left(\frac{a+b}{2}\right) + f(b)\right]
-\]
+(b - a) / 6 * [ f(a) + 4 * f((a + b) / 2) + f(b) ]
 
 Con esto se obtiene una aproximación eficiente del valor de la integral sin necesidad de subdividir el intervalo.
 
@@ -16,9 +14,7 @@ Con esto se obtiene una aproximación eficiente del valor de la integral sin nec
 ## 2. Cálculo del Error
 El error se calculó como la diferencia absoluta entre el valor esperado (del enunciado) y el valor obtenido mediante Simpson:
 
-\[
-\text{error} = | \text{valorReal} - \text{valorObtenido} |
-\]
+error = | valorReal - valorObtenido |
 
 Para esto se creó una función llamada `error` que simplemente devuelve ese valor absoluto.
 
