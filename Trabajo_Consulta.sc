@@ -23,5 +23,4 @@ val e3 = error(3.333, i3)
 val e4 = error(1.09861, i4)
 val e5 = error(1.71828, i5)
 val e6 = error(0.828427, i6)
-
 val e7 = error(0.785398, i7)
